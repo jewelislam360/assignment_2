@@ -1,0 +1,199 @@
+*{
+    font-family: 'Work Sans';
+    margin: 0;
+}
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+
+}
+.header h1{
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+}
+.menu-bar ul{
+    display: flex;  
+   list-style: none;
+   
+}
+.menu-bar ul li a{
+    text-decoration:0;
+    margin: 0 30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.header-section{
+    text-align: center;
+}
+.header-section h1{
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+.header-section p{
+    margin: 30px 0;
+    
+}
+.primary-btn{
+    text-align: center;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 20px;
+    border: none;
+    margin-bottom: 50px;
+
+}
+.banner{
+    margin: 40px 240px;
+   
+}
+/* Quick list of Our Features section styles */
+.Quick-list{
+    display: flex;
+    align-items: center;
+    margin: 80px 300px;
+}
+.Quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.Quick-list-description{
+    margin-left: 70px;
+}
+.Quick-list-description h3{
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 45px;
+    
+
+}
+
+.third{
+    color: #FF900E;
+    
+}
+.Quick-list-description p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+/* Quick list of Our Features section styles */
+.love-enjoy-section{
+    display: flex;
+    margin: 0 240px;
+    gap: 50px;
+}
+.love-enjoy-section h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 25px;
+}
+.love-enjoy-section p{
+    color: #727272;
+    margin-bottom: 30px;
+}
+.love-enjoy-section article{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.Experience {
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 45px 40px;
+    border: none;
+    margin: 0 800px;
+    margin-top: -100px;
+
+
+}
+.Experience h3{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+
+}
+.Experience p{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* Some Facts section styles  */
+.some-facts{
+    margin: 0 240px;
+
+}
+.some-facts>p{
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+.items{
+    margin: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px 35px;
+    
+}
+.item h3{
+    font-weight: 600;
+    font-size: 45px;
+    color: #424242;
+}
+.item p{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+.item:hover{
+    transform: rotate(90deg);
+}
+
+ /* Our Sponspors section style */
+
+ .sponspors{
+    margin: 0 240px;
+ }
+ .sponspors-description{
+    text-align: center;
+    margin-top: 175px;
+    margin-bottom: 30px;
+ }
+ .sponspors-items{
+    display: flex;
+    justify-content: space-between;
+
+ }
+/* footer styles */
+ 
+ footer{
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 170px 240px;
+    padding: 40px 410px;
+ }
